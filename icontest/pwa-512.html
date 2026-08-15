@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PWA icon 512px</title>
+  <link rel="manifest" href="manifest.webmanifest">
+</head>
+
+<body>
+  <h1>PWA 512 × 512</h1>
+  <img src="sample-512.png" width="512" height="512" alt="512px PWA icon">
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("./sw.js");
+    }
+  </script>
+</body>
+</html>

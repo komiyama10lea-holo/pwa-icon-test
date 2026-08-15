@@ -1,0 +1,20 @@
+{
+  "name": "hitosumi",
+  "short_name": "hitosumi",
+  "start_url": "./pwa-192.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "./sample-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./sample-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
